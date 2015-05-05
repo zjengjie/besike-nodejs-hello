@@ -1,0 +1,22 @@
+{
+  "name": "greet",
+  "version": "1.0.0",
+  "description": "A simple and naive greeter",
+  "main": "index.js",
+  "bin": "./bin/greet.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "zengjie",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
